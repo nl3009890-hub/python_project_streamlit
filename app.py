@@ -3,13 +3,18 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Tạo dữ liệu mẫu
+#1. Tạo DataFrame với họ và tên đầy đủ
 data = {
-    "Ho_ten": ["Nguyen Van A", "Tran Thi B", "Le Van C", "Pham Thi D", "Hoang Van E",
-               "Nguyen Thi F", "Tran Van G", "Le Thi H", "Pham Van I", "Hoang Thi J"],
-    "Chuyen_can": [8, 9, 7, 6, 10, 9, 8, 7, 6, 9],
-    "Giua_ky": [7, 8, 6, 5, 9, 8, 7, 6, 5, 8],
-    "Cuoi_ky": [8, 9, 7, 6, 10, 9, 8, 7, 6, 9]
+    "Ho_ten": [
+        "Nguyễn Văn An","Trần Thị Bình","Lê Thị Chi","Phạm Văn Dũng","Hoàng Thị Hà",
+        "Nguyễn Thị Lan","Trần Văn Minh","Lê Văn Nam","Phạm Văn Phúc","Hoàng Thị Trang"
+    ],
+    "Chuyen_can": [8,9,7,6,10,9,8,7,6,9],
+    "Giua_ky": [7,8,6,5,9,8,7,6,5,8],
+    "Cuoi_ky": [8,9,7,6,10,9,8,7,6,9]
 }
+df = pd.DataFrame(data)
+
 
 df = pd.DataFrame(data)
 df["Tong_ket"] = (df["Chuyen_can"]*0.2 + df["Giua_ky"]*0.3 + df["Cuoi_ky"]*0.5)
