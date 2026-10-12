@@ -57,4 +57,4 @@ ax.set_ylabel("Điểm")
 st.pyplot(fig)
 
 # Thông tin người tạo
-st.markdown("<small>Người tạo: Nguyễn Anh Tuấn - MSSV: 123456</small>", unsafe_allow_html=True)
+st.markdown("<small>Người tạo: Nguyễn Anh Tuấn - MSSV: 060208002270</small>", unsafe_allow_html=True)
