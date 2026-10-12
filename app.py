@@ -54,4 +54,4 @@ plt.xticks(rotation=45)
 st.pyplot(fig)
 
 st.markdown("---")
-st.write("👨‍💻 Người tạo: Nguyễn Văn Tuấn - MSSV: 123456")
+st.write("👨‍💻 Người tạo: Nguyễn Anh Tuấn - MSSV: 060208002270")
